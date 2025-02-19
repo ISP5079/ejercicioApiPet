@@ -1,7 +1,7 @@
 package com.isp.pet.service;
 
 import com.isp.pet.apis.PetClient;
-import com.isp.pet.apis.petRqRp.ApiPetRqRp;
+import com.isp.pet.apis.petrqrp.ApiPetRqRp;
 import com.isp.pet.controller.rp.PetRp;
 import com.isp.pet.controller.rq.PetRq;
 import com.isp.pet.utils.Constants;

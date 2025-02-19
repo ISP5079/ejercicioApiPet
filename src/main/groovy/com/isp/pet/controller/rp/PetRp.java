@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.isp.pet.controller.rq.PetRq;
 import lombok.*;
 
-import java.sql.Timestamp;
 import java.time.Instant;
 import java.util.UUID;
 

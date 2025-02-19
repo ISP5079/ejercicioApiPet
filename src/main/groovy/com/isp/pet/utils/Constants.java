@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import org.modelmapper.ModelMapper;
 
 public class Constants {
+    private Constants() {}
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     public static final ModelMapper MODEL_MAPPER = new ModelMapper();
     public static final String FORMAT_PRINT_REQUEST_RESPONSE = "\n----- %s -----\n%s";

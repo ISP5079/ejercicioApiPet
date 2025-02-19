@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.method.annotation.HandlerMethodValidationException;
 
 @RestController
-@RequestMapping("/api/pet")
+@RequestMapping("/api/${spring.application.name}")
 @Slf4j
 public class Pet {
 

@@ -3,8 +3,6 @@ package com.isp.pet.configuration;
 import com.isp.pet.utils.Constants;
 import feign.Logger;
 import feign.RequestInterceptor;
-import feign.Response;
-import feign.codec.ErrorDecoder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,8 +17,6 @@ public class FeignConfig {
 
     @Bean
     public RequestInterceptor requestInterceptor() {
-        return requestTemplate -> {
-            log.info(String.format(Constants.FORMAT_PRINT_REQUEST_RESPONSE, "REQUEST", requestTemplate.toString()));
-        };
+        return requestTemplate -> log.info(String.format(Constants.FORMAT_PRINT_REQUEST_RESPONSE, "REQUEST", requestTemplate.toString()));
     }
 }

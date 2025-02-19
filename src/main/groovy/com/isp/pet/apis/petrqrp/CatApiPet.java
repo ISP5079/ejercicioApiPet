@@ -1,4 +1,4 @@
-package com.isp.pet.apis.petRqRp;
+package com.isp.pet.apis.petrqrp;
 
 import lombok.Getter;
 import lombok.Setter;
